@@ -8,7 +8,12 @@
 <h1>
 	Hello world!  
 </h1>
+<form action="./fileTest" method="post" enctype="multipart/form-data">
+	<input type="text" name="id">
+	<input type="file" name="f1">
+	<button>FileUpload</button>
 
+</form>
 <P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>
